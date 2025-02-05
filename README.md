@@ -39,6 +39,7 @@ We recommend using the Docker image by following these steps:
 - [Install Docker](https://docs.docker.com/get-docker/) if you haven't already
 - Build the Docker image using `docker build -t jekyll .`
 - Run markdownslides with `docker run -v ${PWD}:/app -p 4000:4000 -it --rm --name markdownslides jekyll`
+  - You can use the script `./serve.sh` to run and cleanup build files
 - Reach the website under [http://localhost:4000/markdownslides/](http://localhost:4000/markdownslides/)
 
 For more information, also check out this [blog post](https://alcher.dev/2020/jekyll-on-docker/).

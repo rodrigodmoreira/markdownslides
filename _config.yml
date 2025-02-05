@@ -1,6 +1,6 @@
 # Basic config, that must be set correctly
 baseurl: /markdownslides
-githuburl: https://github.com/a-nau/markdownslides/
+githuburl: https://github.com/dataRainBR/markdownslides/
 
 # Further config
 markdown_slide_separator: ---
@@ -283,6 +283,7 @@ reveal:
 
 exclude:
   [
+    "Dockerfile",
     "Gemfile",
     "Gemfile.lock",
     "vendor",
